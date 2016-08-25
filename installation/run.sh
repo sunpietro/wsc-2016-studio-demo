@@ -15,4 +15,7 @@ echo "
 echo -n "Running composer installation..."
 composer install -n
 echo "..DONE!"
+echo "Obtaining the initial database..."
+php -d memory_limit=-1 app/console ezplatform:install --env prod clean
+echo "..DONE!"
 echo
