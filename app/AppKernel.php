@@ -69,7 +69,6 @@ class AppKernel extends Kernel
             case 'dev':
                 $bundles[] = new eZ\Bundle\EzPublishDebugBundle\EzPublishDebugBundle();
                 $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
-                $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
                 $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
                 $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
                 $bundles[] = new Egulias\ListenersDebugCommandBundle\EguliasListenersDebugCommandBundle();
