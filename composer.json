@@ -1,7 +1,7 @@
 {
-    "name": "ezsystems/ezstudio-demo",
-    "description": "eZ Studio distribution",
-    "homepage": "https://github.com/ezsystems/ezstudio",
+    "name": "sunpietro/wsc-2016-studio-demo",
+    "description": "An introduction to extending eZ Studio with new landing page blocks (by Piotr Nalepa - Senior UI Developer @ eZ Systems & Kamil Musiał - Web Developer @ eZ Systems) at the Web Summer Camp 2016 in Rovinj, Croatia",
+    "homepage": "https://github.com/sunpietro/wsc-2016-studio-demo",
     "license": "TTL-2.0",
     "type": "project",
     "authors": [
